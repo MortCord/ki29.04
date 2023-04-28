@@ -1,0 +1,190 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+.regular{
+    font-family: RobotoRegular;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EBE7E3 ;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+#mainBlock{
+    height: 100vh;
+}
+
+.container-fluid{
+    width: 90%;
+}
+
+.btn-menu{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 0;
+}
+
+.btn-menu:first-child:hover{
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.social{
+    width: 136px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: 0;
+}
+
+.left-img{
+    background-image: url("../img/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 419px;
+
+}
+
+.right-img{
+    background-image: url("../img/photo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 364px;
+    width: 306px;
+}
+
+
+.about-img{
+    background-image: url(../img/about_me.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 531px;
+}
+
+#aboutMe h2{
+    margin-bottom: 80px;
+    font-size: 48px;
+    line-height: 57px;
+    font-family: Calibri;
+
+}
+
+#aboutMe p{
+    font-family: RobotoThin;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1c1a18;
+    width: 306px;
+}
+
+.custom-row{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 620px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #portfolio h2{
+    font-size: 48px;
+    line-height: 57px;
+    font-family: Calibri;
+
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    border-radius: 0;
+    background: #1C1A18;
+}
+
+.h90{
+    height: 90% !important;
+}
+
+.swiper-pagination-bullet-active{
+    border: 2px solid #EBE7E3;
+    border: 1px solid #1C1A18;
+}
+
+#Idioma{
+    background-color: #403A3A;
+    color: white;
+    font-family: RobotoRegular;
+    width: 100%;
+    height: 12vh;
+
+}
+
+#Pricing{
+    width: 100%;
+    font-family: RobotoRegular;
+}
+
+.classic h1{
+    text-align: center;
+}
+
+.classic{
+    background-color: #B8B38B;
+    height: 40vh;
+}
+
+
+.hover-div:hover{
+    display: none;
+}
+
+.foot{
+    background-image: url('../img/Photo_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
