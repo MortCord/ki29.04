@@ -1,0 +1,330 @@
+@font-face {
+    font-family: Newsreader;
+    src: url("../fonts/Newsreader_9pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Reg;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Li;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+body{
+    margin: 0;
+    background: #EBE7E3;
+}
+
+nav button{
+    font-family: Roboto-Reg;
+    background: none;
+    font-size: 18px;
+    border: none;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    margin-left: 60px;
+}
+
+nav{
+    display: flex;
+    margin-top: 38px;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+}
+
+.socials-header{
+    margin-right: 60px;
+    display: flex;
+    gap:56px;
+}
+
+.photo-header-container{
+    margin-top: 51px;
+    font-size: 72px;
+    font-family: Newsreader;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-align{
+    display: flex;
+    align-items: center;
+}
+
+.photo-header-container img:last-child{
+    height: 364px;
+}
+
+.header-button{
+    background: none;
+    font-size: 18px;
+    font-family: Roboto-Reg;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 217px;
+    height: 54px;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.header-button p{
+    margin-top: 10px;
+}
+
+.header-flex-container{
+    display: flex;
+    justify-content: end;
+    margin-right: 81px;
+}
+
+.modal-body, .modal-header{
+    background: #C6C0B6;
+}
+
+.modal-header{
+    border-bottom: none;
+    width: 720px;
+}
+
+.modal-body{
+    font-size: 24px;
+    font-family: Newsreader;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 512px;
+    width: 720px;
+}
+
+.modal-body a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 237px;
+}
+
+.portfolio{
+    font-size: 48px;
+    font-family: Newsreader;
+    margin-left: 60px;
+}
+
+.carousel-container{
+    width: 419px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-size: cover;
+}
+
+.card-info{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card1{
+    background-image: url(../img/photo-slider1.png);
+}
+
+.card2{
+    background-image: url(../img/photo-slider2.png);
+}
+
+.card3{
+    background-image: url(../img/photo-slider3.jpg);
+}
+
+.card-info h2{
+    font-size: 24px;
+    font-family: Roboto-Li;
+}
+
+.card-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.card-text h2:first-child{
+    margin-left: 18px;
+}
+
+.card-text h2:last-child{
+    margin-right: 18px;
+}
+
+
+.card-button{
+    width: 203px;
+    height: 56px;
+    background: none;
+    display: flex;
+    font-size: 18px;
+    font-family: Roboto-Li;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 78px;
+}
+
+.card-button p{
+    margin-top: 10px;
+}
+
+.card-button-flex{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.global-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-control-prev-icon{
+    margin-right: 150px;
+}
+
+.carousel-control-next-icon{
+    margin-left: 150px;
+}
+
+.pricing{
+    font-size: 64px;
+    font-family: Newsreader;
+    text-align: center;
+}
+
+.pricing-global-container{
+    margin-top: 237px;
+}
+
+.price-card{
+    background-color: #C6C0B6;
+    width: 419px;
+}
+
+.type{
+    font-size: 32px;
+    font-family: Newsreader;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.price-info{
+    font-size: 18px;
+    font-family: Roboto-Li;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.price-text{
+    width: 55%;
+}
+
+.price{
+    font-size: 32px;
+    font-family: Newsreader;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.price-button{
+    background: #A99E90;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    font-family: Roboto-Li;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price-button p{
+    margin-top: 10px;
+}
+
+.price-button-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 24px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-image: url(../img/footer.png);
+    margin-top: 237px;
+    height: 640px;
+    background-size: cover;
+    color: white;
+}
+
+.nav-footer{
+    font-size: 24px;
+    font-family: Newsreader;
+    display: flex;
+    gap: 100px;
+    padding-top: 45px;
+    margin-left: 60px;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-container{
+    background: rgba(255, 255, 255, 0.5);
+    width: 419px;
+    height: 352px;
+    margin-right: 56px;
+}
+
+.contacts-container h1{
+    font-size: 48px;
+    font-family: Newsreader;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.contacts{
+    font-size: 24px;
+    font-family: Roboto-Li;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.socials-footer{
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contacts-global{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
