@@ -13,6 +13,13 @@
     src: url("../fonts/Roboto-Light.ttf");
 }
 
+.to-top{
+    position: fixed;
+    right: 10px;
+    bottom: -1px;
+    z-index: 99;
+}
+
 body{
     margin: 0;
     background: #EBE7E3;
